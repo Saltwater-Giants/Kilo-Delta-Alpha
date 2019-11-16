@@ -1,14 +1,19 @@
 import React from 'react';
 import './App.css';
-import { getActiveDeckList, getCardPositions, getExpeditionState } from './api-framework/api';
+import { getCardPositions, getExpeditionState } from './api-framework/api';
+import Card from './cards/Card';
+import { draftPicksFromRectangles } from './cards/DraftPicks';
+import { CardPicks } from './components/CardPicks';
 
 export default class App extends React.Component {
-  state = {data: {}};
+  state = {expeditionData: {}, currentPicks: []};
 
   async componentDidMount() {
-    this.setState({data: await getExpeditionState()});
-    let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({data: response})})}, 10000);
-    let intervalId2 = setInterval(() => {getCardPositions().then(() => {})}, 10000);
+    this.setState({expeditionData: await getExpeditionState(),
+      currentPicks: await draftPicksFromRectangles(getCardPositions().Rectangles)});
+    let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({expeditionData: response})})}, 10000);
+    let intervalId2 = setInterval(() => {getCardPositions().then((response) => {this.setState({currentPicks: draftPicksFromRectangles(response.Rectangles)})})}, 10000);
+    new Card("01DE012")
   }
 
   render(){
@@ -16,35 +21,37 @@ export default class App extends React.Component {
       <div className="App">
         <div>
           <h1>IsActive</h1>
-          <div>{Boolean(this.state.data.IsActive).toString()}</div>
+          <div>{Boolean(this.state.expeditionData.IsActive).toString()}</div>
         </div>
         <div>
           <h1>Deck</h1>
-          <div>{this.state.data.Deck}</div>
+          <div>{this.state.expeditionData.Deck}</div>
         </div>
         <div>
           <h1>Picks</h1>
-          <div>{this.state.data.Picks}</div>
+          <div>{this.state.currentPicks.map((item, i) => (
+            <CardPicks key={i} {...item}/>
+          ))}</div>
         </div>
         <div>
           <h1>Games</h1>
-          <div>{this.state.data.Games}</div>
+          <div>{this.state.expeditionData.Games}</div>
         </div>
         <div>
           <h1>Losses</h1>
-          <div>{this.state.data.Losses}</div>
+          <div>{this.state.expeditionData.Losses}</div>
         </div>
         <div>
           <h1>Wins</h1>
-          <div>{this.state.data.Wins}</div>
+          <div>{this.state.expeditionData.Wins}</div>
         </div>
         <div>
           <h1>Record</h1>
-          <div>{this.state.data.Record}</div>
+          <div>{this.state.expeditionData.Record}</div>
         </div>
         <div>
           <h1>State</h1>
-          <div>{this.state.data.State}</div>
+          <div>{this.state.expeditionData.State}</div>
         </div>
       </div>
     );
