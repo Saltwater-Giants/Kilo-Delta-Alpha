@@ -1,0 +1,8 @@
+.draft-picks-title {
+    text-align: center;
+}
+
+.draft-picks-picks {
+    display: inline-flex;
+    width: 100%;
+}
