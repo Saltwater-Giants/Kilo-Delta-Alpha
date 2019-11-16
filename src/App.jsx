@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import { getCardPositions, getExpeditionState } from './api-framework/api';
-import Card from './cards/Card';
-import { draftPicksFromRectangles } from './cards/DraftPicks';
+import { draftPicksFromRectangles } from './cards/CardUtils';
 import { CardPicks } from './components/CardPicks';
 
 export default class App extends React.Component {
@@ -13,7 +12,6 @@ export default class App extends React.Component {
       currentPicks: await draftPicksFromRectangles(getCardPositions().Rectangles)});
     let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({expeditionData: response})})}, 10000);
     let intervalId2 = setInterval(() => {getCardPositions().then((response) => {this.setState({currentPicks: draftPicksFromRectangles(response.Rectangles)})})}, 10000);
-    new Card("01DE012")
   }
 
   render(){
@@ -30,7 +28,7 @@ export default class App extends React.Component {
         <div>
           <h1>Picks</h1>
           <div>{this.state.currentPicks.map((item, i) => (
-            <CardPicks key={i} {...item}/>
+            <CardPicks key={i} number={i} cards={item}/>
           ))}</div>
         </div>
         <div>
