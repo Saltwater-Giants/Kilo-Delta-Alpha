@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { getActiveDeckList } from './api-framework/api';
+import { getActiveDeckList, getCardPositions, getGameResult } from './api-framework/api';
+
 export default class App extends React.Component {
 
-  componentDidMount() {
-    let intervalId = setInterval(() => {getActiveDeckList().then(() => {})}, 10000);
+  async componentDidMount() {
+    await getCardPositions();
+    let intervalId = setInterval(() => {getCardPositions().then(() => {})}, 10000);
   }
 
   render(){

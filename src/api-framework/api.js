@@ -6,26 +6,23 @@ const config = {
   headers: { 'Access-Control-Allow-Origin': '*' }
 };
 
+function apiDataFormater(response) {
+  console.log(response.data);
+  return response.data;
+}
+
 export async function getActiveDeckList() {
-  const response = await axios.get(`http://localhost:${PORT}/static-decklist`, config);
-  console.log(response);
-  return response;
+  return apiDataFormater(await axios.get(`http://localhost:${PORT}/static-decklist`, config));
 }
 
 export async function getCardPositions() {
-  const response = await axios.get(`http://localhost:${PORT}/positional-rectangles`);
-  console.log(response);
-  return response;
+  return apiDataFormater(await axios.get(`http://localhost:${PORT}/positional-rectangles`));
 }
 
 export async function getExpeditionState() {
-  const response = await axios.get(`http://localhost:${PORT}/expeditions-state`);
-  console.log(response);
-  return response;
+  return apiDataFormater(await axios.get(`http://localhost:${PORT}/expeditions-state`));
 }
 
 export async function getGameResult() {
-  const response = await axios.get(`http://localhost:${PORT}/game-result`);
-  console.log(response);
-  return response;
+  return apiDataFormater(await axios.get(`http://localhost:${PORT}/game-result`));
 }
