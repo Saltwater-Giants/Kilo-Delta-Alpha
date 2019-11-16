@@ -1,5 +1,6 @@
 import React from 'react';
 import './DraftDeck.css'
+import { Deck } from '../components/Deck';
 
 export default class DraftDeck extends React.Component {
 
@@ -7,7 +8,7 @@ export default class DraftDeck extends React.Component {
     return (
       <div>
         <h1 className="draft-deck-title">Deck</h1>
-        <div>{this.props.deck}</div>
+        <Deck deck={this.props.deck}/>
       </div>
     )
   }
