@@ -8,8 +8,9 @@ export default class App extends React.Component {
   state = {expeditionData: {}, currentPicks: []};
 
   async componentDidMount() {
+    let rectangles = await getCardPositions().Rectangles;
     this.setState({expeditionData: await getExpeditionState(),
-      currentPicks: await draftPicksFromRectangles(getCardPositions().Rectangles)});
+      currentPicks: draftPicksFromRectangles(rectangles)});
     let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({expeditionData: response})})}, 10000);
     let intervalId2 = setInterval(() => {getCardPositions().then((response) => {this.setState({currentPicks: draftPicksFromRectangles(response.Rectangles)})})}, 10000);
   }

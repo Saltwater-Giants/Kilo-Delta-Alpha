@@ -7,10 +7,12 @@ export function draftPicksFromRectangles(rectangles) {
       (r, v, i, a, k = v.TopLeftX) => ((r[k] || (r[k] = [])).push(v), r),
       []
     );
-    picks.forEach((pick, i) => {
+    let i = 1;
+    picks.forEach(pick => {
       pick.forEach(card => {
         (cardPicks[i] || (cardPicks[i] = [])).push(new Card(card.CardCode));
       });
+      i++;
     });
   }
   console.log(cardPicks);
