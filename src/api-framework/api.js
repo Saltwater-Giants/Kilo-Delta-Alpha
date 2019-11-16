@@ -1,9 +1,13 @@
-import { AxiosInstance as axios } from 'axios';
+const axios = require('axios');
 
 const PORT = 21337;
 
+const config = {
+  headers: { 'Access-Control-Allow-Origin': '*' }
+};
+
 export async function getActiveDeckList() {
-  const response = await axios.get(`http://localhost:${PORT}/static-decklist`);
+  const response = await axios.get(`http://localhost:${PORT}/static-decklist`, config);
   console.log(response);
   return response;
 }

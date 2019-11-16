@@ -5,7 +5,7 @@ import { getActiveDeckList } from './api-framework/api';
 export default class App extends React.Component {
 
   componentDidMount() {
-    let intervalId = setInterval(() => {getActiveDeckList().then(() => {})}, 1000);
+    let intervalId = setInterval(() => {getActiveDeckList().then(() => {})}, 10000);
   }
 
   render(){
