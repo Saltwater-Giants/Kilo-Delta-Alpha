@@ -19,6 +19,8 @@ export default class Card {
     const cardScore = scoreTemplate.find(card => {
       return card.id === id;
     });
-    return cardScore.score;
+    if (cardScore) {
+      return cardScore.score;
+    }
   }
 }
