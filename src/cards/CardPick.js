@@ -6,9 +6,11 @@ export default class CardPick {
 
   static generateStaticScore(cards) {
     let score = 0;
-    cards.forEach(card => {
-      score += card.score;
-    });
+    if (cards) {
+      cards.forEach(card => {
+        score += card.score;
+      });
+    }
     return score;
   }
 }
