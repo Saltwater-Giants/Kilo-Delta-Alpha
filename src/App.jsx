@@ -1,59 +1,32 @@
 import React from 'react';
 import './App.css';
-import { getCardPositions, getExpeditionState } from './api-framework/api';
-import Card from './cards/Card';
-import { draftPicksFromRectangles } from './cards/DraftPicks';
-import { CardPicks } from './components/CardPicks';
+import { getExpeditionState } from './api-framework/api';
+import DraftHeader from './containers/DrafterHeader';
+import DraftDeck from './containers/DraftDeck';
+import DraftPicks from './containers/DraftPicks';
+import 'semantic-ui-css/semantic.min.css';
 
 export default class App extends React.Component {
-  state = {expeditionData: {}, currentPicks: []};
+  state = {expeditionData: {}};
 
   async componentDidMount() {
-    this.setState({expeditionData: await getExpeditionState(),
-      currentPicks: await draftPicksFromRectangles(getCardPositions().Rectangles)});
     let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({expeditionData: response})})}, 10000);
-    let intervalId2 = setInterval(() => {getCardPositions().then((response) => {this.setState({currentPicks: draftPicksFromRectangles(response.Rectangles)})})}, 10000);
-    new Card("01DE012")
+    this.setState({intervalId: intervalId, expeditionData: await getExpeditionState()});
   }
 
   render(){
     return (
       <div className="App">
-        <div>
-          <h1>IsActive</h1>
-          <div>{Boolean(this.state.expeditionData.IsActive).toString()}</div>
+        <div className="draft-header">
+          <DraftHeader {...this.state.expeditionData}/>
         </div>
-        <div>
-          <h1>Deck</h1>
-          <div>{this.state.expeditionData.Deck}</div>
+        <div className="draft-deck">
+          <DraftDeck deck={this.state.expeditionData.Deck}/>
         </div>
-        <div>
-          <h1>Picks</h1>
-          <div>{this.state.currentPicks.map((item, i) => (
-            <CardPicks key={i} {...item}/>
-          ))}</div>
-        </div>
-        <div>
-          <h1>Games</h1>
-          <div>{this.state.expeditionData.Games}</div>
-        </div>
-        <div>
-          <h1>Losses</h1>
-          <div>{this.state.expeditionData.Losses}</div>
-        </div>
-        <div>
-          <h1>Wins</h1>
-          <div>{this.state.expeditionData.Wins}</div>
-        </div>
-        <div>
-          <h1>Record</h1>
-          <div>{this.state.expeditionData.Record}</div>
-        </div>
-        <div>
-          <h1>State</h1>
-          <div>{this.state.expeditionData.State}</div>
+        <div className="deck-picks">
+          <DraftPicks/>
         </div>
       </div>
-    );
+    )
   }
 }
