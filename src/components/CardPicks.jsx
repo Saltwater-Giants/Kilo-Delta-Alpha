@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Card } from './Card';
-import './CardPicks.css'
+import './CardPicks.css';
 
 export const CardPicks = (props) => {
+  if (props === undefined || props.cards === undefined) return null;
   return (
     <div className="card-picks">
       <h2>Pick {props.number + 1}</h2>
