@@ -5,6 +5,11 @@
   grid-template-areas:
           "header header"
           "sidebar main";
+  background-image: url(images/BG_paper_light.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .draft-header {
