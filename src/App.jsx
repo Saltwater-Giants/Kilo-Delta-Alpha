@@ -4,7 +4,6 @@ import { getExpeditionState } from './api-framework/api';
 import DraftHeader from './containers/DrafterHeader';
 import DraftDeck from './containers/DraftDeck';
 import DraftPicks from './containers/DraftPicks';
-import 'semantic-ui-css/semantic.min.css';
 
 export default class App extends React.Component {
   state = {expeditionData: {}};
