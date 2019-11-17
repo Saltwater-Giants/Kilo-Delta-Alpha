@@ -3,7 +3,7 @@ import { Card } from './Card';
 import './CardPicks.css'
 
 export const CardPicks = (props) => {
-  console.log(props);
+  //TODO: remove the first set if there is anything in the deck
   return (
     <div className="card-picks">
       <h2>Pick {props.number}</h2>

@@ -7,7 +7,7 @@ const config = {
 };
 
 function apiDataFormater(response) {
-  console.log(response.data);
+  // console.log(response.data);
   return response.data;
 }
 

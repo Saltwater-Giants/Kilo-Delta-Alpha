@@ -15,7 +15,6 @@ export function draftPicksFromRectangles(rectangles) {
       i++;
     });
   }
-  console.log(cardPicks);
   return cardPicks;
 }
 
