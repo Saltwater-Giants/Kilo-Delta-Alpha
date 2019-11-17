@@ -1,4 +1,4 @@
-const data = require('./set1-en_us');
+const data = require('../ext/datadragon-set1-lite/en_us/data/set1-en_us');
 
 export default class Card {
   constructor(id) {
