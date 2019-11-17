@@ -1,0 +1,2102 @@
+[
+  {
+    "name":"Discipline of Fortitude",
+    "id":"01IO012T2",
+    "score":0
+  },
+  {
+    "name":"Draven",
+    "id":"01NX020T3",
+    "score":0
+  },
+  {
+    "name":"Dawnspeakers",
+    "id":"01DE031",
+    "score":0
+  },
+  {
+    "name":"Yusari the Slayer",
+    "id":"01IO048T1",
+    "score":0
+  },
+  {
+    "name":"Jinx's Get Excited!",
+    "id":"01PZ040T3",
+    "score":0
+  },
+  {
+    "name":"Glacial Storm",
+    "id":"01FR024T2",
+    "score":0
+  },
+  {
+    "name":"Teemo",
+    "id":"01PZ008T2",
+    "score":0
+  },
+  {
+    "name":"Lucian",
+    "id":"01DE022",
+    "score":0
+  },
+  {
+    "name":"Yasuo",
+    "id":"01IO015T1",
+    "score":0
+  },
+  {
+    "name":"Heimerdinger",
+    "id":"01PZ056",
+    "score":0
+  },
+  {
+    "name":"Keeper of Masks",
+    "id":"01IO020",
+    "score":0
+  },
+  {
+    "name":"Tryndamere's Battle Fury",
+    "id":"01FR039T1",
+    "score":0
+  },
+  {
+    "name":"Augmented Experimenter",
+    "id":"01PZ013",
+    "score":0
+  },
+  {
+    "name":"Mobilize",
+    "id":"01DE019",
+    "score":0
+  },
+  {
+    "name":"Culling Strike",
+    "id":"01NX004",
+    "score":0
+  },
+  {
+    "name":"Parade Electrorig",
+    "id":"01PZ007",
+    "score":0
+  },
+  {
+    "name":"Heimerdinger",
+    "id":"01PZ056T10",
+    "score":0
+  },
+  {
+    "name":"Phantom Prankster",
+    "id":"01SI038",
+    "score":0
+  },
+  {
+    "name":"Lux's Prismatic Barrier",
+    "id":"01DE042T1",
+    "score":0
+  },
+  {
+    "name":"Academy Prodigy",
+    "id":"01PZ018",
+    "score":0
+  },
+  {
+    "name":"Herald of Spring",
+    "id":"01IO045",
+    "score":0
+  },
+  {
+    "name":"Fae Bladetwirler",
+    "id":"01IO008",
+    "score":0
+  },
+  {
+    "name":"Crimson Curator",
+    "id":"01NX048",
+    "score":0
+  },
+  {
+    "name":"Iceborn Legacy",
+    "id":"01FR006",
+    "score":0
+  },
+  {
+    "name":"Ghost",
+    "id":"01IO022",
+    "score":0
+  },
+  {
+    "name":"Omen Hawk",
+    "id":"01FR022",
+    "score":0
+  },
+  {
+    "name":"Harsh Winds",
+    "id":"01FR042",
+    "score":0
+  },
+  {
+    "name":"Glimpse Beyond",
+    "id":"01SI049",
+    "score":0
+  },
+  {
+    "name":"Elise's Crawling Sensation",
+    "id":"01SI053T1",
+    "score":0
+  },
+  {
+    "name":"Braum",
+    "id":"01FR009",
+    "score":0
+  },
+  {
+    "name":"Ancient Crocolith",
+    "id":"01SI057",
+    "score":0
+  },
+  {
+    "name":"Swiftwing Lancer",
+    "id":"01DE010",
+    "score":0
+  },
+  {
+    "name":"Soul Shepherd",
+    "id":"01SI023",
+    "score":0
+  },
+  {
+    "name":"Eager Apprentice",
+    "id":"01PZ019",
+    "score":0
+  },
+  {
+    "name":"Darius",
+    "id":"01NX038",
+    "score":0
+  },
+  {
+    "name":"Kinkou Lifeblade",
+    "id":"01IO040",
+    "score":0
+  },
+  {
+    "name":"Rimefang Wolf",
+    "id":"01FR018",
+    "score":0
+  },
+  {
+    "name":"Vanguard Defender",
+    "id":"01DE020",
+    "score":0
+  },
+  {
+    "name":"Battlesmith",
+    "id":"01DE034",
+    "score":0
+  },
+  {
+    "name":"Tianna Crownguard",
+    "id":"01DE002",
+    "score":0
+  },
+  {
+    "name":"Arachnoid Host",
+    "id":"01NX023",
+    "score":0
+  },
+  {
+    "name":"Karma",
+    "id":"01IO041T1",
+    "score":0
+  },
+  {
+    "name":"Garen",
+    "id":"01DE012T1",
+    "score":0
+  },
+  {
+    "name":"Stand Alone",
+    "id":"01DE017",
+    "score":0
+  },
+  {
+    "name":"Jinx",
+    "id":"01PZ040",
+    "score":0
+  },
+  {
+    "name":"Decisive Maneuver",
+    "id":"01NX013",
+    "score":0
+  },
+  {
+    "name":"Fiora",
+    "id":"01DE045",
+    "score":0
+  },
+  {
+    "name":"Puffcap Peddler",
+    "id":"01PZ025",
+    "score":0
+  },
+  {
+    "name":"Brightsteel Formation",
+    "id":"01DE052",
+    "score":0
+  },
+  {
+    "name":"Super Mega Death Rocket!",
+    "id":"01PZ040T2",
+    "score":0
+  },
+  {
+    "name":"Elise",
+    "id":"01SI053",
+    "score":0
+  },
+  {
+    "name":"Relentless Pursuit",
+    "id":"01DE021",
+    "score":0
+  },
+  {
+    "name":"Magnum Opus",
+    "id":"01PZ048T1",
+    "score":0
+  },
+  {
+    "name":"Paralyzing Bite",
+    "id":"01NX046T1",
+    "score":0
+  },
+  {
+    "name":"Transfusion",
+    "id":"01NX047",
+    "score":0
+  },
+  {
+    "name":"Onslaught of Shadows",
+    "id":"01SI010",
+    "score":0
+  },
+  {
+    "name":"Legion Saboteur",
+    "id":"01NX040",
+    "score":0
+  },
+  {
+    "name":"Hecarim",
+    "id":"01SI042T1",
+    "score":0
+  },
+  {
+    "name":"Scrap Scuttler",
+    "id":"01PZ032",
+    "score":0
+  },
+  {
+    "name":"Zed",
+    "id":"01IO009T2",
+    "score":0
+  },
+  {
+    "name":"Vilemaw",
+    "id":"01SI027T1",
+    "score":0
+  },
+  {
+    "name":"Greenglade Elder",
+    "id":"01IO014",
+    "score":0
+  },
+  {
+    "name":"Darius",
+    "id":"01NX038T2",
+    "score":0
+  },
+  {
+    "name":"Lucian's Relentless Pursuit",
+    "id":"01DE022T2",
+    "score":0
+  },
+  {
+    "name":"Jury-Rig",
+    "id":"01PZ028",
+    "score":0
+  },
+  {
+    "name":"Detain",
+    "id":"01DE025",
+    "score":0
+  },
+  {
+    "name":"Avarosan Marksman",
+    "id":"01FR036",
+    "score":0
+  },
+  {
+    "name":"Nimble Poro",
+    "id":"01IO005",
+    "score":0
+  },
+  {
+    "name":"Scarthane Steffen",
+    "id":"01FR045",
+    "score":0
+  },
+  {
+    "name":"Navori Conspirator",
+    "id":"01IO044",
+    "score":0
+  },
+  {
+    "name":"Jubilant Poro",
+    "id":"01FR008T1",
+    "score":0
+  },
+  {
+    "name":"Shatter",
+    "id":"01FR055",
+    "score":0
+  },
+  {
+    "name":"Crystal Arrow",
+    "id":"01FR038T3",
+    "score":0
+  },
+  {
+    "name":"Arachnoid Sentry",
+    "id":"01NX046",
+    "score":0
+  },
+  {
+    "name":"Rising Spell Force",
+    "id":"01PZ050",
+    "score":0
+  },
+  {
+    "name":"Mk3: Floor-B-Gone",
+    "id":"01PZ056T6",
+    "score":0
+  },
+  {
+    "name":"Jeweled Protector",
+    "id":"01IO023",
+    "score":0
+  },
+  {
+    "name":"Cursed Keeper",
+    "id":"01SI048",
+    "score":0
+  },
+  {
+    "name":"Undermine",
+    "id":"01PZ054T1",
+    "score":0
+  },
+  {
+    "name":"Impersonate",
+    "id":"01PZ030T1",
+    "score":0
+  },
+  {
+    "name":"Brothers' Bond",
+    "id":"01NX025",
+    "score":0
+  },
+  {
+    "name":"House Spider",
+    "id":"01NX055",
+    "score":0
+  },
+  {
+    "name":"Judgment",
+    "id":"01DE007",
+    "score":0
+  },
+  {
+    "name":"Used Cask Salesman",
+    "id":"01PZ017",
+    "score":0
+  },
+  {
+    "name":"Sump Dredger",
+    "id":"01PZ038",
+    "score":0
+  },
+  {
+    "name":"Mk2: Evolution Turret",
+    "id":"01PZ056T7",
+    "score":0
+  },
+  {
+    "name":"Scribe of Sorrows",
+    "id":"01SI018",
+    "score":0
+  },
+  {
+    "name":"Teemo's Mushroom Cloud",
+    "id":"01PZ008T1",
+    "score":0
+  },
+  {
+    "name":"Kalista",
+    "id":"01SI030T2",
+    "score":0
+  },
+  {
+    "name":"Entreat",
+    "id":"01FR029",
+    "score":0
+  },
+  {
+    "name":"Night Harvest",
+    "id":"01SI035T1",
+    "score":0
+  },
+  {
+    "name":"Kalista",
+    "id":"01SI030",
+    "score":0
+  },
+  {
+    "name":"Sown Seeds",
+    "id":"01IO029",
+    "score":0
+  },
+  {
+    "name":"Ezreal",
+    "id":"01PZ036T1",
+    "score":0
+  },
+  {
+    "name":"Unscarred Reaver",
+    "id":"01FR035",
+    "score":0
+  },
+  {
+    "name":"Death Mark",
+    "id":"01IO003",
+    "score":0
+  },
+  {
+    "name":"Jae Medarda",
+    "id":"01PZ035",
+    "score":0
+  },
+  {
+    "name":"Shady Character",
+    "id":"01PZ030",
+    "score":0
+  },
+  {
+    "name":"Shadow Flare",
+    "id":"01IO047",
+    "score":0
+  },
+  {
+    "name":"Corina Veraza",
+    "id":"01PZ048",
+    "score":0
+  },
+  {
+    "name":"Catalyst of Aeons",
+    "id":"01FR012",
+    "score":0
+  },
+  {
+    "name":"Draven's Whirling Death",
+    "id":"01NX020T2",
+    "score":0
+  },
+  {
+    "name":"Crimson Disciple",
+    "id":"01NX030",
+    "score":0
+  },
+  {
+    "name":"Enraged Yeti",
+    "id":"01FR028",
+    "score":0
+  },
+  {
+    "name":"Mushroom Cloud",
+    "id":"01PZ010",
+    "score":0
+  },
+  {
+    "name":"Arena Battlecaster",
+    "id":"01NX007",
+    "score":0
+  },
+  {
+    "name":"Zaunite Urchin",
+    "id":"01PZ045",
+    "score":0
+  },
+  {
+    "name":"Inspiring Mentor",
+    "id":"01IO026",
+    "score":0
+  },
+  {
+    "name":"Reckless Research",
+    "id":"01PZ013T1",
+    "score":0
+  },
+  {
+    "name":"Back Alley Barkeep",
+    "id":"01PZ002",
+    "score":0
+  },
+  {
+    "name":"Spiderling",
+    "id":"01SI002",
+    "score":0
+  },
+  {
+    "name":"Scuttlegeist",
+    "id":"01SI005",
+    "score":0
+  },
+  {
+    "name":"Ashe",
+    "id":"01FR038",
+    "score":0
+  },
+  {
+    "name":"Laurent Duelist",
+    "id":"01DE055",
+    "score":0
+  },
+  {
+    "name":"Trueshot Barrage",
+    "id":"01PZ004",
+    "score":0
+  },
+  {
+    "name":"Mageseeker Inciter",
+    "id":"01DE048",
+    "score":0
+  },
+  {
+    "name":"Dawn and Dusk",
+    "id":"01IO024",
+    "score":0
+  },
+  {
+    "name":"Spider Queen Elise",
+    "id":"01SI053T2",
+    "score":0
+  },
+  {
+    "name":"Vanguard Bannerman",
+    "id":"01DE001",
+    "score":0
+  },
+  {
+    "name":"Daring Poro",
+    "id":"01PZ020",
+    "score":0
+  },
+  {
+    "name":"Legion Marauder",
+    "id":"01NX021",
+    "score":0
+  },
+  {
+    "name":"Avalanche",
+    "id":"01FR020",
+    "score":0
+  },
+  {
+    "name":"Counterfeit Copies",
+    "id":"01PZ046",
+    "score":0
+  },
+  {
+    "name":"Scaled Snapper",
+    "id":"01IO028",
+    "score":0
+  },
+  {
+    "name":"Yeti Yearling",
+    "id":"01FR014",
+    "score":0
+  },
+  {
+    "name":"Sinister Poro",
+    "id":"01SI037",
+    "score":0
+  },
+  {
+    "name":"Crowd Favorite",
+    "id":"01NX009",
+    "score":0
+  },
+  {
+    "name":"Shadow Assassin",
+    "id":"01IO057",
+    "score":0
+  },
+  {
+    "name":"Scaled Snapper",
+    "id":"01IO028T2",
+    "score":0
+  },
+  {
+    "name":"Boomcrew Rookie",
+    "id":"01PZ054",
+    "score":0
+  },
+  {
+    "name":"Draven",
+    "id":"01NX020",
+    "score":0
+  },
+  {
+    "name":"Mystic Shot",
+    "id":"01PZ052",
+    "score":0
+  },
+  {
+    "name":"Anivia's Harsh Winds",
+    "id":"01FR024T1",
+    "score":0
+  },
+  {
+    "name":"War Chefs",
+    "id":"01DE043",
+    "score":0
+  },
+  {
+    "name":"Ezreal",
+    "id":"01PZ036",
+    "score":0
+  },
+  {
+    "name":"Scaled Snapper",
+    "id":"01IO028T1",
+    "score":0
+  },
+  {
+    "name":"Escaped Abomination",
+    "id":"01SI048T1",
+    "score":0
+  },
+  {
+    "name":"T-Hex",
+    "id":"01PZ015",
+    "score":0
+  },
+  {
+    "name":"Reckoning",
+    "id":"01NX053",
+    "score":0
+  },
+  {
+    "name":"Hextech Transmogulator",
+    "id":"01PZ005",
+    "score":0
+  },
+  {
+    "name":"Darius's Decimate",
+    "id":"01NX038T1",
+    "score":0
+  },
+  {
+    "name":"Thresh",
+    "id":"01SI052",
+    "score":0
+  },
+  {
+    "name":"Lucian",
+    "id":"01DE022T1",
+    "score":0
+  },
+  {
+    "name":"Plucky Poro",
+    "id":"01DE049",
+    "score":0
+  },
+  {
+    "name":"Garen's Judgment",
+    "id":"01DE012T2",
+    "score":0
+  },
+  {
+    "name":"Commander Ledros",
+    "id":"01SI033",
+    "score":0
+  },
+  {
+    "name":"Midenstokke Henchmen",
+    "id":"01PZ021",
+    "score":0
+  },
+  {
+    "name":"The Harrowing",
+    "id":"01SI003",
+    "score":0
+  },
+  {
+    "name":"The Undying",
+    "id":"01SI041",
+    "score":0
+  },
+  {
+    "name":"Sabotage",
+    "id":"01NX040T1",
+    "score":0
+  },
+  {
+    "name":"Stalking Wolf",
+    "id":"01FR049",
+    "score":0
+  },
+  {
+    "name":"Shen",
+    "id":"01IO032T1",
+    "score":0
+  },
+  {
+    "name":"Laurent Chevalier",
+    "id":"01DE053",
+    "score":0
+  },
+  {
+    "name":"Absorb Soul",
+    "id":"01SI045",
+    "score":0
+  },
+  {
+    "name":"Avarosan Outriders",
+    "id":"01FR037",
+    "score":0
+  },
+  {
+    "name":"Crawling Sensation",
+    "id":"01SI036",
+    "score":0
+  },
+  {
+    "name":"Braum",
+    "id":"01FR009T1",
+    "score":0
+  },
+  {
+    "name":"Shadow Fiend",
+    "id":"01IO013",
+    "score":0
+  },
+  {
+    "name":"Statikk Shock",
+    "id":"01PZ031",
+    "score":0
+  },
+  {
+    "name":"Spectral Rider",
+    "id":"01SI024",
+    "score":0
+  },
+  {
+    "name":"Tortured Prodigy",
+    "id":"01SI051",
+    "score":0
+  },
+  {
+    "name":"Alpha Wildclaw",
+    "id":"01FR026",
+    "score":0
+  },
+  {
+    "name":"Intimidating Roar",
+    "id":"01NX054",
+    "score":0
+  },
+  {
+    "name":"Crimson Pact",
+    "id":"01NX006T2",
+    "score":0
+  },
+  {
+    "name":"Golden Crushbot",
+    "id":"01PZ059",
+    "score":0
+  },
+  {
+    "name":"Legion Veteran",
+    "id":"01NX029",
+    "score":0
+  },
+  {
+    "name":"Brittle Steel",
+    "id":"01FR030",
+    "score":0
+  },
+  {
+    "name":"Shiraza the Blade",
+    "id":"01NX014",
+    "score":0
+  },
+  {
+    "name":"Oblivious Islander",
+    "id":"01SI012",
+    "score":0
+  },
+  {
+    "name":"Thresh's The Box",
+    "id":"01SI052T2",
+    "score":0
+  },
+  {
+    "name":"Rummage",
+    "id":"01PZ001",
+    "score":0
+  },
+  {
+    "name":"Katarina",
+    "id":"01NX042T2",
+    "score":0
+  },
+  {
+    "name":"Scarmother Vrynna",
+    "id":"01FR013",
+    "score":0
+  },
+  {
+    "name":"Scrapdash Assembly",
+    "id":"01PZ057",
+    "score":0
+  },
+  {
+    "name":"Iron Harbinger",
+    "id":"01SI031",
+    "score":0
+  },
+  {
+    "name":"Black Spear",
+    "id":"01SI034",
+    "score":0
+  },
+  {
+    "name":"Hapless Aristocrat",
+    "id":"01SI043",
+    "score":0
+  },
+  {
+    "name":"Rush",
+    "id":"01IO018",
+    "score":0
+  },
+  {
+    "name":"Heimerdinger's Progress Day!",
+    "id":"01PZ056T3",
+    "score":0
+  },
+  {
+    "name":"Winter's Breath",
+    "id":"01FR019",
+    "score":0
+  },
+  {
+    "name":"Remembrance",
+    "id":"01DE033",
+    "score":0
+  },
+  {
+    "name":"Stirred Spirits",
+    "id":"01SI009",
+    "score":0
+  },
+  {
+    "name":"Thermogenic Beam",
+    "id":"01PZ027",
+    "score":0
+  },
+  {
+    "name":"Fiora",
+    "id":"01DE045T1",
+    "score":0
+  },
+  {
+    "name":"Avarosan Hearthguard",
+    "id":"01FR041",
+    "score":0
+  },
+  {
+    "name":"Captain Farron",
+    "id":"01NX051",
+    "score":0
+  },
+  {
+    "name":"Poro Herder",
+    "id":"01FR025",
+    "score":0
+  },
+  {
+    "name":"Lux",
+    "id":"01DE042T2",
+    "score":0
+  },
+  {
+    "name":"Legion Rearguard",
+    "id":"01NX012",
+    "score":0
+  },
+  {
+    "name":"Mageseeker Conservator",
+    "id":"01DE024",
+    "score":0
+  },
+  {
+    "name":"Unleashed Spirit",
+    "id":"01SI007T1",
+    "score":0
+  },
+  {
+    "name":"Border Lookout",
+    "id":"01DE046",
+    "score":0
+  },
+  {
+    "name":"Vanguard Firstblade",
+    "id":"01DE056",
+    "score":0
+  },
+  {
+    "name":"Blade's Edge",
+    "id":"01NX043",
+    "score":0
+  },
+  {
+    "name":"Silverwing Scout",
+    "id":"01DE030",
+    "score":0
+  },
+  {
+    "name":"Staggering Strikes",
+    "id":"01IO056T1",
+    "score":0
+  },
+  {
+    "name":"Kalista's Black Spear",
+    "id":"01SI030T1",
+    "score":0
+  },
+  {
+    "name":"Legion Grenadier",
+    "id":"01NX037",
+    "score":0
+  },
+  {
+    "name":"Decimate",
+    "id":"01NX002",
+    "score":0
+  },
+  {
+    "name":"Zephyr Sage",
+    "id":"01IO016",
+    "score":0
+  },
+  {
+    "name":"Frenzied Skitterer",
+    "id":"01SI056",
+    "score":0
+  },
+  {
+    "name":"Legion General",
+    "id":"01NX010",
+    "score":0
+  },
+  {
+    "name":"Legion Drummer",
+    "id":"01NX017",
+    "score":0
+  },
+  {
+    "name":"Silverwing Vanguard",
+    "id":"01DE004",
+    "score":0
+  },
+  {
+    "name":"Vengeance",
+    "id":"01SI001",
+    "score":0
+  },
+  {
+    "name":"Laurent Protege",
+    "id":"01DE011",
+    "score":0
+  },
+  {
+    "name":"Greenglade Lookout",
+    "id":"01IO036",
+    "score":0
+  },
+  {
+    "name":"Astute Academic",
+    "id":"01PZ055",
+    "score":0
+  },
+  {
+    "name":"Teemo",
+    "id":"01PZ008",
+    "score":0
+  },
+  {
+    "name":"Mk5: Rocket Blaster",
+    "id":"01PZ056T2",
+    "score":0
+  },
+  {
+    "name":"Unlicensed Innovation",
+    "id":"01PZ014",
+    "score":0
+  },
+  {
+    "name":"Succession",
+    "id":"01DE047",
+    "score":0
+  },
+  {
+    "name":"Arena Bookie",
+    "id":"01NX003",
+    "score":0
+  },
+  {
+    "name":"Whirling Death",
+    "id":"01NX011",
+    "score":0
+  },
+  {
+    "name":"Scarmaiden Reaver",
+    "id":"01FR054",
+    "score":0
+  },
+  {
+    "name":"Purify",
+    "id":"01DE050",
+    "score":0
+  },
+  {
+    "name":"Tarkaz's Fury",
+    "id":"01FR021T1",
+    "score":0
+  },
+  {
+    "name":"Heart of the Fluft",
+    "id":"01FR043",
+    "score":0
+  },
+  {
+    "name":"Snow Hare",
+    "id":"01FR049T1",
+    "score":0
+  },
+  {
+    "name":"Wyrding Stones",
+    "id":"01FR033",
+    "score":0
+  },
+  {
+    "name":"The Box",
+    "id":"01SI019",
+    "score":0
+  },
+  {
+    "name":"Final Spark",
+    "id":"01DE042T3",
+    "score":0
+  },
+  {
+    "name":"Minah Swiftfoot",
+    "id":"01IO033",
+    "score":0
+  },
+  {
+    "name":"Vision",
+    "id":"01NX039",
+    "score":0
+  },
+  {
+    "name":"Icevale Archer",
+    "id":"01FR011",
+    "score":0
+  },
+  {
+    "name":"Sumpsnipe Scavenger",
+    "id":"01PZ034",
+    "score":0
+  },
+  {
+    "name":"Elixir of Iron",
+    "id":"01FR004",
+    "score":0
+  },
+  {
+    "name":"Kindly Tavernkeeper",
+    "id":"01FR050",
+    "score":0
+  },
+  {
+    "name":"Illegal Contraption",
+    "id":"01PZ014T1",
+    "score":0
+  },
+  {
+    "name":"Trifarian Shieldbreaker",
+    "id":"01NX041",
+    "score":0
+  },
+  {
+    "name":"Tryndamere",
+    "id":"01FR039T2",
+    "score":0
+  },
+  {
+    "name":"Ashe",
+    "id":"01FR038T2",
+    "score":0
+  },
+  {
+    "name":"Accelerated Purrsuit",
+    "id":"01PZ060",
+    "score":0
+  },
+  {
+    "name":"Yasuo",
+    "id":"01IO015",
+    "score":0
+  },
+  {
+    "name":"Ritual of Renewal",
+    "id":"01IO001",
+    "score":0
+  },
+  {
+    "name":"Dauntless Vanguard",
+    "id":"01DE016",
+    "score":0
+  },
+  {
+    "name":"Stand United",
+    "id":"01IO010",
+    "score":0
+  },
+  {
+    "name":"Twin Disciplines",
+    "id":"01IO012",
+    "score":0
+  },
+  {
+    "name":"Balesight",
+    "id":"01FR052T1",
+    "score":0
+  },
+  {
+    "name":"Mageseeker Persuader",
+    "id":"01DE040",
+    "score":0
+  },
+  {
+    "name":"Minotaur Reckoner",
+    "id":"01NX036",
+    "score":0
+  },
+  {
+    "name":"Battering Ram",
+    "id":"01NX044",
+    "score":0
+  },
+  {
+    "name":"Vanguard Squire",
+    "id":"01DE036",
+    "score":0
+  },
+  {
+    "name":"Ravenous Butcher",
+    "id":"01SI011",
+    "score":0
+  },
+  {
+    "name":"Zed's Shadowshift",
+    "id":"01IO009T3",
+    "score":0
+  },
+  {
+    "name":"Hecarim's Onslaught of Shadows",
+    "id":"01SI042T2",
+    "score":0
+  },
+  {
+    "name":"Riposte",
+    "id":"01DE037",
+    "score":0
+  },
+  {
+    "name":"Mk7: Armored Stomper",
+    "id":"01PZ056T5",
+    "score":0
+  },
+  {
+    "name":"Fresh Offerings",
+    "id":"01SI027",
+    "score":0
+  },
+  {
+    "name":"Assembly Bot",
+    "id":"01PZ003",
+    "score":0
+  },
+  {
+    "name":"Windfarer Hatchling",
+    "id":"01IO021",
+    "score":0
+  },
+  {
+    "name":"Poro Snax",
+    "id":"01FR016",
+    "score":0
+  },
+  {
+    "name":"Crimson Aristocrat",
+    "id":"01NX005",
+    "score":0
+  },
+  {
+    "name":"Jinx",
+    "id":"01PZ040T1",
+    "score":0
+  },
+  {
+    "name":"Battle Fury",
+    "id":"01FR005",
+    "score":0
+  },
+  {
+    "name":"Reinforcements",
+    "id":"01DE014",
+    "score":0
+  },
+  {
+    "name":"Chain Vest",
+    "id":"01DE013",
+    "score":0
+  },
+  {
+    "name":"Zed",
+    "id":"01IO009",
+    "score":0
+  },
+  {
+    "name":"Katarina's Death Lotus",
+    "id":"01NX042T1",
+    "score":0
+  },
+  {
+    "name":"Trifarian Hopeful",
+    "id":"01NX016",
+    "score":0
+  },
+  {
+    "name":"Braum's Take Heart",
+    "id":"01FR009T2",
+    "score":0
+  },
+  {
+    "name":"Mistwraith",
+    "id":"01SI014",
+    "score":0
+  },
+  {
+    "name":"Elixir of Wrath",
+    "id":"01NX027",
+    "score":0
+  },
+  {
+    "name":"Silent Shadowseer",
+    "id":"01IO027",
+    "score":0
+  },
+  {
+    "name":"Haunted Relic",
+    "id":"01SI007",
+    "score":0
+  },
+  {
+    "name":"Mark of the Isles",
+    "id":"01SI022",
+    "score":0
+  },
+  {
+    "name":"Shen",
+    "id":"01IO032",
+    "score":0
+  },
+  {
+    "name":"Precious Pet",
+    "id":"01NX015",
+    "score":0
+  },
+  {
+    "name":"Grasp of the Undying",
+    "id":"01SI054",
+    "score":0
+  },
+  {
+    "name":"Chempunk Shredder",
+    "id":"01PZ044",
+    "score":0
+  },
+  {
+    "name":"Lonely Poro",
+    "id":"01FR008",
+    "score":0
+  },
+  {
+    "name":"Karma",
+    "id":"01IO041",
+    "score":0
+  },
+  {
+    "name":"Possession",
+    "id":"01SI006",
+    "score":0
+  },
+  {
+    "name":"Radiant Guardian",
+    "id":"01DE015",
+    "score":0
+  },
+  {
+    "name":"Eminent Benefactor",
+    "id":"01PZ029",
+    "score":0
+  },
+  {
+    "name":"Death Lotus",
+    "id":"01NX050",
+    "score":0
+  },
+  {
+    "name":"Mk0: Windup Shredder",
+    "id":"01PZ056T1",
+    "score":0
+  },
+  {
+    "name":"Cloud Drinker",
+    "id":"01IO031",
+    "score":0
+  },
+  {
+    "name":"Laurent Bladekeeper",
+    "id":"01DE003",
+    "score":0
+  },
+  {
+    "name":"Warmother's Call",
+    "id":"01FR023",
+    "score":0
+  },
+  {
+    "name":"Purrsuit of Perfection",
+    "id":"01PZ033",
+    "score":0
+  },
+  {
+    "name":"Blade of Ledros",
+    "id":"01SI033T1",
+    "score":0
+  },
+  {
+    "name":"Funsmith",
+    "id":"01PZ051",
+    "score":0
+  },
+  {
+    "name":"Splinter Soul",
+    "id":"01SI028",
+    "score":0
+  },
+  {
+    "name":"Atrocity",
+    "id":"01SI025",
+    "score":0
+  },
+  {
+    "name":"Yasuo's Steel Tempest",
+    "id":"01IO015T2",
+    "score":0
+  },
+  {
+    "name":"Recall",
+    "id":"01IO011",
+    "score":0
+  },
+  {
+    "name":"Living Shadow",
+    "id":"01IO009T1",
+    "score":0
+  },
+  {
+    "name":"Will of Ionia",
+    "id":"01IO002",
+    "score":0
+  },
+  {
+    "name":"Fatal Strike",
+    "id":"01IO007T1",
+    "score":0
+  },
+  {
+    "name":"Feral Mystic",
+    "id":"01FR047",
+    "score":0
+  },
+  {
+    "name":"Skyward Strikes",
+    "id":"01IO033T1",
+    "score":0
+  },
+  {
+    "name":"Navori Bladescout",
+    "id":"01IO017",
+    "score":0
+  },
+  {
+    "name":"Icy Yeti",
+    "id":"01FR056",
+    "score":0
+  },
+  {
+    "name":"Shunpo",
+    "id":"01NX056",
+    "score":0
+  },
+  {
+    "name":"Poison Puffcap",
+    "id":"01PZ022",
+    "score":0
+  },
+  {
+    "name":"Face-Melter",
+    "id":"01PZ044T2",
+    "score":0
+  },
+  {
+    "name":"Mist's Call",
+    "id":"01SI046",
+    "score":0
+  },
+  {
+    "name":"Cataclysm",
+    "id":"01PZ033T1",
+    "score":0
+  },
+  {
+    "name":"Trifarian Assessor",
+    "id":"01NX033",
+    "score":0
+  },
+  {
+    "name":"Prismatic Barrier",
+    "id":"01DE032",
+    "score":0
+  },
+  {
+    "name":"Vladimir",
+    "id":"01NX006T1",
+    "score":0
+  },
+  {
+    "name":"Professor von Yipp",
+    "id":"01PZ023",
+    "score":0
+  },
+  {
+    "name":"Mk1: Wrenchbot",
+    "id":"01PZ056T4",
+    "score":0
+  },
+  {
+    "name":"Tryndamere",
+    "id":"01FR039",
+    "score":0
+  },
+  {
+    "name":"Bull Elnuk",
+    "id":"01FR027",
+    "score":0
+  },
+  {
+    "name":"Brood Awakening",
+    "id":"01SI050",
+    "score":0
+  },
+  {
+    "name":"Pack Mentality",
+    "id":"01FR057",
+    "score":0
+  },
+  {
+    "name":"Unstable Voltician",
+    "id":"01PZ024",
+    "score":0
+  },
+  {
+    "name":"Wraithcaller",
+    "id":"01SI016",
+    "score":0
+  },
+  {
+    "name":"Sparring Student",
+    "id":"01IO042",
+    "score":0
+  },
+  {
+    "name":"Ashe's Flash Freeze",
+    "id":"01FR038T1",
+    "score":0
+  },
+  {
+    "name":"Tarkaz the Tribeless",
+    "id":"01FR021",
+    "score":0
+  },
+  {
+    "name":"Greenglade Duo",
+    "id":"01IO006",
+    "score":0
+  },
+  {
+    "name":"Blood for Blood",
+    "id":"01NX052",
+    "score":0
+  },
+  {
+    "name":"Kinkou Wayfinder",
+    "id":"01IO050",
+    "score":0
+  },
+  {
+    "name":"Single Combat",
+    "id":"01DE026",
+    "score":0
+  },
+  {
+    "name":"Katarina",
+    "id":"01NX042",
+    "score":0
+  },
+  {
+    "name":"Shark Chariot",
+    "id":"01SI021",
+    "score":0
+  },
+  {
+    "name":"Avarosan Trapper",
+    "id":"01FR048",
+    "score":0
+  },
+  {
+    "name":"Progress Day!",
+    "id":"01PZ049",
+    "score":0
+  },
+  {
+    "name":"Yusari",
+    "id":"01IO048",
+    "score":0
+  },
+  {
+    "name":"Troop of Elnuks",
+    "id":"01FR017",
+    "score":0
+  },
+  {
+    "name":"Health Potion",
+    "id":"01IO004",
+    "score":0
+  },
+  {
+    "name":"Chronicler of Ruin",
+    "id":"01SI032",
+    "score":0
+  },
+  {
+    "name":"Plaza Guardian",
+    "id":"01PZ006",
+    "score":0
+  },
+  {
+    "name":"Ren Shadowblade",
+    "id":"01IO007",
+    "score":0
+  },
+  {
+    "name":"Anivia",
+    "id":"01FR024T3",
+    "score":0
+  },
+  {
+    "name":"Ethereal Remitter",
+    "id":"01SI058",
+    "score":0
+  },
+  {
+    "name":"Clump of Whumps",
+    "id":"01PZ053",
+    "score":0
+  },
+  {
+    "name":"Emerald Awakener",
+    "id":"01IO053",
+    "score":0
+  },
+  {
+    "name":"Take Heart",
+    "id":"01FR046",
+    "score":0
+  },
+  {
+    "name":"Savage Reckoner",
+    "id":"01NX045",
+    "score":0
+  },
+  {
+    "name":"En Garde",
+    "id":"01DE027",
+    "score":0
+  },
+  {
+    "name":"Spectral Matron",
+    "id":"01SI044",
+    "score":0
+  },
+  {
+    "name":"Rimetusk Shaman",
+    "id":"01FR040",
+    "score":0
+  },
+  {
+    "name":"Deny",
+    "id":"01IO049",
+    "score":0
+  },
+  {
+    "name":"Trifarian Gloryseeker",
+    "id":"01NX031",
+    "score":0
+  },
+  {
+    "name":"Flame Chompers!",
+    "id":"01PZ012",
+    "score":0
+  },
+  {
+    "name":"Ancient Yeti",
+    "id":"01FR031",
+    "score":0
+  },
+  {
+    "name":"Vanguard Sergeant",
+    "id":"01DE006",
+    "score":0
+  },
+  {
+    "name":"Bullseye",
+    "id":"01FR036T1",
+    "score":0
+  },
+  {
+    "name":"Mighty Poro",
+    "id":"01FR053",
+    "score":0
+  },
+  {
+    "name":"Navori Brigand",
+    "id":"01IO052T1",
+    "score":0
+  },
+  {
+    "name":"Arachnoid Horror",
+    "id":"01SI039",
+    "score":0
+  },
+  {
+    "name":"Get Excited!",
+    "id":"01PZ039",
+    "score":0
+  },
+  {
+    "name":"Mk6: Stormlobber",
+    "id":"01PZ056T9",
+    "score":0
+  },
+  {
+    "name":"Senna, Sentinel of Light",
+    "id":"01DE038",
+    "score":0
+  },
+  {
+    "name":"Bloodsworn Pledge",
+    "id":"01FR010",
+    "score":0
+  },
+  {
+    "name":"Navori Highwayman",
+    "id":"01IO052",
+    "score":0
+  },
+  {
+    "name":"The Empyrean",
+    "id":"01IO030",
+    "score":0
+  },
+  {
+    "name":"Back to Back",
+    "id":"01DE041",
+    "score":0
+  },
+  {
+    "name":"Vladimir",
+    "id":"01NX006",
+    "score":0
+  },
+  {
+    "name":"Flash of Brilliance",
+    "id":"01PZ016",
+    "score":0
+  },
+  {
+    "name":"Ezreal's Mystic Shot",
+    "id":"01PZ036T2",
+    "score":0
+  },
+  {
+    "name":"For Demacia!",
+    "id":"01DE035",
+    "score":0
+  },
+  {
+    "name":"Basilisk Rider",
+    "id":"01NX008",
+    "score":0
+  },
+  {
+    "name":"Greenglade Caretaker",
+    "id":"01IO019",
+    "score":0
+  },
+  {
+    "name":"Radiant Strike",
+    "id":"01DE018",
+    "score":0
+  },
+  {
+    "name":"Insight of Ages",
+    "id":"01IO054",
+    "score":0
+  },
+  {
+    "name":"The Rekindler",
+    "id":"01SI020",
+    "score":0
+  },
+  {
+    "name":"Flash Freeze",
+    "id":"01FR001",
+    "score":0
+  },
+  {
+    "name":"Chump Whump",
+    "id":"01PZ058",
+    "score":0
+  },
+  {
+    "name":"Hecarim",
+    "id":"01SI042",
+    "score":0
+  },
+  {
+    "name":"Brightsteel Protector",
+    "id":"01DE009",
+    "score":0
+  },
+  {
+    "name":"Withering Wail",
+    "id":"01SI029",
+    "score":0
+  },
+  {
+    "name":"Amateur Aeronaut",
+    "id":"01PZ009",
+    "score":0
+  },
+  {
+    "name":"Shen's Stand United",
+    "id":"01IO032T2",
+    "score":0
+  },
+  {
+    "name":"Rhasa the Sunderer",
+    "id":"01SI035",
+    "score":0
+  },
+  {
+    "name":"Anivia",
+    "id":"01FR024",
+    "score":0
+  },
+  {
+    "name":"Affectionate Poro",
+    "id":"01NX034",
+    "score":0
+  },
+  {
+    "name":"Intrepid Mariner",
+    "id":"01PZ042",
+    "score":0
+  },
+  {
+    "name":"Lux",
+    "id":"01DE042",
+    "score":0
+  },
+  {
+    "name":"Fiora's Riposte",
+    "id":"01DE045T2",
+    "score":0
+  },
+  {
+    "name":"Draven's Biggest Fan",
+    "id":"01NX035",
+    "score":0
+  },
+  {
+    "name":"Glacial Storm",
+    "id":"01FR024T5",
+    "score":0
+  },
+  {
+    "name":"Reckless Trifarian",
+    "id":"01NX026",
+    "score":0
+  },
+  {
+    "name":"Darkwater Scourge",
+    "id":"01SI004",
+    "score":0
+  },
+  {
+    "name":"Steel Tempest",
+    "id":"01IO046",
+    "score":0
+  },
+  {
+    "name":"Cithria of Cloudfield",
+    "id":"01DE039",
+    "score":0
+  },
+  {
+    "name":"Vladimir's Transfusion",
+    "id":"01NX006T3",
+    "score":0
+  },
+  {
+    "name":"Fluft of Poros",
+    "id":"01FR043T1",
+    "score":0
+  },
+  {
+    "name":"Fleetfeather Tracker",
+    "id":"01DE029",
+    "score":0
+  },
+  {
+    "name":"Spirit's Refuge",
+    "id":"01IO037",
+    "score":0
+  },
+  {
+    "name":"Mk4: Apex Turret",
+    "id":"01PZ056T8",
+    "score":0
+  },
+  {
+    "name":"Eggnivia",
+    "id":"01FR024T4",
+    "score":0
+  },
+  {
+    "name":"Sumpworks Map",
+    "id":"01PZ026",
+    "score":0
+  },
+  {
+    "name":"Might",
+    "id":"01NX019",
+    "score":0
+  },
+  {
+    "name":"Vanguard Cavalry",
+    "id":"01DE028",
+    "score":0
+  },
+  {
+    "name":"Rivershaper",
+    "id":"01IO043",
+    "score":0
+  },
+  {
+    "name":"Chempunk Pickpocket",
+    "id":"01PZ043",
+    "score":0
+  },
+  {
+    "name":"Starlit Seer",
+    "id":"01FR032",
+    "score":0
+  },
+  {
+    "name":"Solitary Monk",
+    "id":"01IO038",
+    "score":0
+  },
+  {
+    "name":"She Who Wanders",
+    "id":"01FR052",
+    "score":0
+  },
+  {
+    "name":"Tall Tales",
+    "id":"01FR051",
+    "score":0
+  },
+  {
+    "name":"Noxian Guillotine",
+    "id":"01NX022",
+    "score":0
+  },
+  {
+    "name":"Caustic Cask",
+    "id":"01PZ047",
+    "score":0
+  },
+  {
+    "name":"Warden's Prey",
+    "id":"01SI026",
+    "score":0
+  },
+  {
+    "name":"Discipline of Force",
+    "id":"01IO012T1",
+    "score":0
+  },
+  {
+    "name":"Vanguard Redeemer",
+    "id":"01DE054",
+    "score":0
+  },
+  {
+    "name":"Karma's Insight of Ages",
+    "id":"01IO041T2",
+    "score":0
+  },
+  {
+    "name":"Shadowshift",
+    "id":"01IO039",
+    "score":0
+  },
+  {
+    "name":"Crimson Awakener",
+    "id":"01NX032",
+    "score":0
+  },
+  {
+    "name":"Mageseeker Investigator",
+    "id":"01DE023",
+    "score":0
+  },
+  {
+    "name":"Kato The Arm",
+    "id":"01NX024",
+    "score":0
+  },
+  {
+    "name":"Vile Feast",
+    "id":"01SI040",
+    "score":0
+  },
+  {
+    "name":"They Who Endure",
+    "id":"01FR034",
+    "score":0
+  },
+  {
+    "name":"Cithria the Bold",
+    "id":"01DE051",
+    "score":0
+  },
+  {
+    "name":"Yone, Windchaser",
+    "id":"01IO056",
+    "score":0
+  },
+  {
+    "name":"Ki Guardian",
+    "id":"01IO055",
+    "score":0
+  },
+  {
+    "name":"Redoubled Valor",
+    "id":"01DE044",
+    "score":0
+  },
+  {
+    "name":"The Ruination",
+    "id":"01SI015",
+    "score":0
+  },
+  {
+    "name":"Thresh",
+    "id":"01SI052T1",
+    "score":0
+  },
+  {
+    "name":"Guile",
+    "id":"01NX049",
+    "score":0
+  },
+  {
+    "name":"Babbling Bjerg",
+    "id":"01FR007",
+    "score":0
+  },
+  {
+    "name":"Garen",
+    "id":"01DE012",
+    "score":0
+  },
+  {
+    "name":"Spinning Axe",
+    "id":"01NX020T1",
+    "score":0
+  },
+  {
+    "name":"Avarosan Sentry",
+    "id":"01FR003",
+    "score":0
+  },
+  {
+    "name":"Soulgorger",
+    "id":"01SI055",
+    "score":0
+  },
+  {
+    "name":"Fading Memories",
+    "id":"01SI047",
+    "score":0
+  }
+]

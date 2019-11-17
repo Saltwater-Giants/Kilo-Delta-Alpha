@@ -13,6 +13,15 @@ export default class App extends React.Component {
     this.setState({intervalId: intervalId, expeditionData: await getExpeditionState()});
   }
 
+  generateScoreTemplate() {
+    const data = require('./ext/datadragon-set1-lite/en_us/data/set1-en_us');
+    let cardScoreList = [];
+    data.forEach(card=>{
+      cardScoreList.push({name: card.name, id:card.cardCode, score: 0})
+    });
+    console.log(JSON.stringify(cardScoreList))
+  };
+
   render(){
     return (
       <div className="App">
