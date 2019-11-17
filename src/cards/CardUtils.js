@@ -1,19 +1,27 @@
 import Card from './Card';
 
-export function draftPicksFromRectangles(rectangles) {
-  let cardPicks = [];
+function getCardsByRectanglesXCoord(rectangles) {
+  const cardPicks = [];
   if (rectangles) {
-    let picks = rectangles.reduce(
+    const picks = rectangles.reduce(
       (r, v, i, a, k = v.TopLeftX) => ((r[k] || (r[k] = [])).push(v), r),
       []
     );
-    let i = 1;
+    let i = 0;
     picks.forEach(pick => {
       pick.forEach(card => {
         (cardPicks[i] || (cardPicks[i] = [])).push(new Card(card.CardCode));
       });
-      i++;
+      i += 1;
     });
+  }
+  return cardPicks;
+}
+
+export function draftPicksFromRectangles(rectangles) {
+  const cardPicks = getCardsByRectanglesXCoord(rectangles);
+  if (cardPicks.length === 4) {
+    cardPicks.shift();
   }
   return cardPicks;
 }
