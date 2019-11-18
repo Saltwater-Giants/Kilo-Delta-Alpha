@@ -1,6 +1,6 @@
 import React from 'react';
 import { deckFromCardCodeList } from '../cards/DeckUtils';
-import { Card } from './Card';
+import { DeckListCard } from './DeckListCard';
 
 export const Deck = props => {
   let deck = deckFromCardCodeList(props.deck);
@@ -8,7 +8,7 @@ export const Deck = props => {
   return (
     <div>
       {deck.map((item, i) => (
-        <Card key={i} {...item}/>
+        <DeckListCard key={i} {...item}/>
       ))}
     </div>
   )

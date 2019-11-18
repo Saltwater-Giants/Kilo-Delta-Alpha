@@ -1,0 +1,28 @@
+.deck-list-card {
+    position: relative;
+}
+
+.deck-list-card-image {
+    width: 200px;
+}
+
+.deck-list-card-cost {
+    position: absolute;
+    color: white;
+    left: 13px;
+    top: 5px;
+}
+
+.deck-list-card-name {
+    position: absolute;
+    color: white;
+    left: 36px;
+    top: 5px;
+}
+
+.deck-list-card-number {
+    position: absolute;
+    color: white;
+    left: 183px;
+    top: 5px;
+}
