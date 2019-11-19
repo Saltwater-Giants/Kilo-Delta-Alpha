@@ -2,6 +2,7 @@ import React from 'react';
 import { Card } from './Card';
 import './CardPicks.css';
 import CardPick from '../cards/CardPick';
+import picksScoreImg from '../images/Sprite/FactionNameplate.png';
 
 export const CardPicks = (props) => {
   if (props === undefined || props.cards === undefined) return null;
@@ -10,7 +11,10 @@ export const CardPicks = (props) => {
 
   return (
     <div className="card-picks">
-      <h2>Pick {props.number + 1}: {cardPick.score}</h2>
+      <div className="card-picks-score">
+        <img src={picksScoreImg} className="card-picks-score-image" />
+        <span className="card-picks-score-number">{cardPick.score}</span>
+      </div>
       <div className="card-picks-cards">
         {cardPick.cards.map((item, i) => (
           <Card key={i} {...item}/>

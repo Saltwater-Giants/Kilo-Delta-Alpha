@@ -1,3 +1,24 @@
+.card {
+    text-align: center;
+}
+
 .card-image {
-    width: 175px;
+    width: 100px;
+}
+
+.card-score {
+    position: relative;
+    width: 40px;
+    margin: auto;
+}
+
+.card-score-image {
+    width: 40px;
+}
+
+.card-score-number {
+    position: absolute;
+    color: white;
+    left: 15.5px;
+    top: 7px;
 }
