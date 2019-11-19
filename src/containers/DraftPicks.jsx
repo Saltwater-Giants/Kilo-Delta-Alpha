@@ -15,7 +15,7 @@ export default class DraftPicks extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="draft-picks">
         <div className="draft-picks-picks">{this.state.currentPicks.map((item, i) => (
           <CardPicks key={i} number={i} cards={item}/>
         ))}</div>

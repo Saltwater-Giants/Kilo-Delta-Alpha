@@ -24,6 +24,7 @@ export default class App extends React.Component {
 
   render(){
     return (
+      //check for active and state to change what is on screen
       <div className="App">
         <div className="draft-header">
           <DraftHeader {...this.state.expeditionData}/>
