@@ -1,0 +1,13 @@
+.draft-header-header-items {
+    margin: 0.5rem;
+    display: inline-flex;
+    width: 100%;
+}
+
+.draft-header-separator {
+    display: block;
+}
+
+.draft-header-separator-image {
+    width: 100%;
+}

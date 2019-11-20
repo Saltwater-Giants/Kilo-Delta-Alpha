@@ -9,4 +9,5 @@
     background-image: url(../images/LeftPanel.png); /*this repeats the top bit for some reason*/
     background-repeat: no-repeat;
     background-size: 300px 100vh;
+    background-attachment: fixed;
 }

@@ -20,7 +20,7 @@ html {
 
 .App {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: grid;
   grid-template-columns: 300px auto;
   grid-template-rows: 5rem auto;
@@ -31,8 +31,6 @@ html {
 
 .draft-header {
   grid-area: header;
-  display: inline-flex;
-
 }
 
 .draft-deck {

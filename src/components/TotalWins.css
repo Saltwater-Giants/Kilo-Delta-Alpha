@@ -1,0 +1,15 @@
+.total-wins {
+    display: inline-flex;
+    margin:auto
+}
+
+.total-wins-text {
+    color: #b4ac9b;
+}
+
+.total-wins-wins {
+    color: #fbda60;
+    font-size: 40px;
+    line-height: 1;
+    margin: 0 0 0 1rem;
+}
