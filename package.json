@@ -5,10 +5,11 @@
   "homepage": "./",
   "main": "public/electron.js",
   "productName": "Legends of RuneTerra Expedition Assistant",
+  "description": "",
   "author": {
-    "name": "Your Name",
-    "email": "your.email@domain.com",
-    "url": "https://your-website.com"
+    "name": "Slatwater Giants",
+    "email": "jacobbrown0192@gmail.com",
+    "url": "https://github.com/Saltwater-Giants"
   },
   "build": {
     "appId": "com.saltwatergiants.lorea",

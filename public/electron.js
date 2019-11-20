@@ -1,7 +1,7 @@
 const { app, BrowserWindow, Menu } = require('electron');
 const path = require('path');
 const isDev = require('electron-is-dev');
-// require('electron-reload');
+// if(isDev) {require('electron-reload');}
 
 let mainWindow;
 
@@ -11,11 +11,16 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1201,
     height: 760,
+    icon: isDev
+      ? path.join(__dirname, '../assets/icon.png')
+      : `file://${path.join(__dirname, '../assets/icon.png')}`,
     webPreferences: {
       webSecurity: false
     }
   });
-  mainWindow.webContents.openDevTools();
+  if (isDev) {
+    mainWindow.webContents.openDevTools();
+  }
   mainWindow.loadURL(
     isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`
   );
