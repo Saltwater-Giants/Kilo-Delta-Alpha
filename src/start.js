@@ -1,16 +1,16 @@
-const electron = require('electron');
-const app = electron.app;
+const { app, BrowserWindow, Menu } = require('electron');
 const path = require('path');
 const isDev = require('electron-is-dev');
 require('electron-reload');
-const BrowserWindow = electron.BrowserWindow;
 
 let mainWindow;
 
+Menu.setApplicationMenu(null);
+
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1201,
+    height: 760,
     webPreferences: {
       webSecurity: false
     }
