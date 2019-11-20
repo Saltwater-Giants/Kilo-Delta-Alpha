@@ -18,6 +18,15 @@ npm run electron
 Not sure how to do this yet might be some hints in the original guide used to make this a react project
 https://dev.to/jsmanifest/create-your-first-react-desktop-application-in-electron-with-hot-reload-4jj5
 
+[Guide used to create packaging and build stuff](https://medium.com/@impaachu/how-to-build-a-react-based-electron-app-d0f27413f17f)
+
+
+
+```bash
+# create windows installer
+npm run build
+```
+
 ## Resources for Learning Electron
 
 - [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
