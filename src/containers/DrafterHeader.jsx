@@ -8,7 +8,7 @@ export default class DraftHeader extends React.Component {
   //This needs to be improved to only render on props update
   render() {
     console.log(this.props);
-    let wins = this.props.Wins;
+    let wins = 0;
     if(this.props.Record) {
       this.props.Record.forEach(record => {
         if (record === 'win') {

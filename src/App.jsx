@@ -27,7 +27,7 @@ export default class App extends React.Component {
   }
 
   async componentDidMount() {
-    let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({expeditionData: response})})}, 10000);
+    let intervalId = setInterval(() => {getExpeditionState().then((response) => {this.setState({expeditionData: response})})}, 2500);
     this.setState({intervalId: intervalId, expeditionData: await getExpeditionState()});
     let winsIntervalId = setInterval(() => {getGameResult().then((response) => {this.checkForWinUpdate(response)})}, 5000);
   }
