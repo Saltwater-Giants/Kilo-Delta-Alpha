@@ -11,6 +11,8 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1201,
     height: 760,
+    minWidth: 700,
+    minHeight: 800,
     icon: isDev
       ? path.join(__dirname, '../assets/icon.png')
       : `file://${path.join(__dirname, '../assets/icon.png')}`,

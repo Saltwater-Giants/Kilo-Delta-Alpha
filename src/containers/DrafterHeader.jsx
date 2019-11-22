@@ -26,7 +26,7 @@ export default class DraftHeader extends React.Component {
           {/*<HeaderItem title="Games" data={this.props.Games} />*/}
           {/*<HeaderItem title="Active" data={Boolean(this.props.IsActive).toString()} />*/}
           {/*<HeaderItem title="Record" data={this.props.Record} />*/}
-          <HeaderItem title="State" data={this.props.State} />
+          {/*<HeaderItem title="State" data={this.props.State} />*/}
         </div>
         {/*<div className="draft-header-separator">*/}
           {/*<img className="draft-header-separator-image" src={separator} />*/}
