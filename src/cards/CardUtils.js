@@ -26,6 +26,19 @@ export function draftPicksFromRectangles(rectangles) {
   return cardPicks;
 }
 
+export function draftTradesFromRectangles(rectangles) {
+  const cardPicks = getCardsByRectanglesXCoord(rectangles);
+  const cardTrades = [];
+  if (cardPicks.length === 3) {
+    cardPicks.shift();
+    cardPicks[0].forEach((card, i) => {
+      (cardTrades[i] || (cardTrades[i] = [])).push(card);
+      (cardTrades[i] || (cardTrades[i] = [])).push(cardPicks[1][i]);
+    });
+  }
+  return cardTrades;
+}
+
 export function cardUtils(cardIds) {
   let cards = [];
   cardIds.forEach(cardId => {

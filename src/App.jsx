@@ -54,7 +54,7 @@ export default class App extends React.Component {
           <DraftDeck deck={this.state.expeditionData.Deck}/>
         </div>
         <div className="deck-picks">
-          <DraftPicks/>
+          <DraftPicks {...this.state.expeditionData}/>
         </div>
       </div>
     )

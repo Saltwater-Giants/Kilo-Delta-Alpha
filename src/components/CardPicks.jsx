@@ -23,4 +23,4 @@ export const CardPicks = (props) => {
       </div>
     </div>
   )
-}
+};

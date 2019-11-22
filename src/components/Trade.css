@@ -1,0 +1,25 @@
+.trade {
+    display: flex;
+}
+
+.trade-cards {
+    display: inline-flex;
+    margin: auto;
+}
+
+.trade-icon {
+    display: inline-flex;
+    margin: auto 2rem;
+    position: relative;
+}
+
+.trade-icon-icon {
+    height: 25px;
+}
+
+.trade-icon-icon-bg {    position: absolute;
+    height: 40px;
+    top: -7px;
+    left: -6px;
+    z-index: -1;
+}
