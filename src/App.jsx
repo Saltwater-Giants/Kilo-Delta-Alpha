@@ -14,7 +14,6 @@ export default class App extends React.Component {
 
   checkForWinUpdate(response) {
     if (this.state.lastGameId != response.GameID) {
-      console.log(this.state.lastGameId.toString());
       localStorage.setItem('lastGameId', response.GameID.toString());
       this.setState({lastGameId: response.GameID});
       localStorage.setItem('totalWins', this.state.games.toString());
