@@ -22,7 +22,7 @@ export class Progression extends React.Component {
   }
 
   updatePredicate() {
-    this.setState({ showProgression: window.innerWidth > 1200 });
+    this.setState({ showProgression: window.innerWidth > 800 });
   }
 
   render() {
