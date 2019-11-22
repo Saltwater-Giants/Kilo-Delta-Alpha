@@ -5,25 +5,32 @@ import CreatureCard from '../images/CreatureDeckList.png'
 import SpellCard from '../images/SpellDeckList.png'
 
 export const DeckListCard = (props) => {
-  if (props === undefined || props.info === undefined) return null;
+  if (props === undefined || props.card.info === undefined) return null;
   let deckListImage = CreatureCard;
-  switch (props.info.type) {
+  switch (props.card.info.type) {
     case 'Spell':
       deckListImage = SpellCard;
       break;
     case 'unit':
-      if (props.info.supertype === 'Champion') {
+      if (props.card.info.supertype === 'Champion') {
         deckListImage = ChampCard;
       }
   }
 
-  if (props.info.cardCode !== undefined) {
+  let cardName = props.card.info.name;
+  if (props.card.info.name.length > 16 ){
+    cardName = props.card.info.name.substr(0,15) + '...'
+  }
+
+  const costCentering = props.card.info.cost > 9 ? 7 : 13;
+
+  if (props.card.info.cardCode !== undefined) {
     return (
       <div className="deck-list-card">
         <img src={deckListImage} className="deck-list-card-image" />
-        <span className="deck-list-card-cost">{props.info.cost}</span>
-        <span className="deck-list-card-name">{props.info.name}</span>
-        <span className="deck-list-card-number">1</span>
+        <span className="deck-list-card-cost" style={{ left: `${costCentering}px`}}>{props.card.info.cost}</span>
+        <span className="deck-list-card-name">{cardName}</span>
+        <span className="deck-list-card-number">{props.count}</span>
       </div>
     );
   }
@@ -31,7 +38,7 @@ export const DeckListCard = (props) => {
   return (
     <>
       <div>
-        {props.info.name}
+        {props.card.info.name}
       </div>
     </>
   )

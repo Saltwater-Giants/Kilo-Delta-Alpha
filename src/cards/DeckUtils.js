@@ -13,18 +13,23 @@ export function deckFromCode(code) {
 export function deckFromCardCodeList(codeList) {
   const cardList = [];
   if (!isEmpty(codeList)) {
-    codeList.forEach(cardCode => {
-      cardList.push(new Card(cardCode));
+    const counts = {};
+    codeList.forEach(function(x) {
+      counts[x] = (counts[x] || 0) + 1;
     });
-  }
-  cardList.sort((a, b) =>
-    a.info.cost > b.info.cost
-      ? 1
-      : a.info.cost === b.info.cost
-      ? a.info.name > b.info.name
+
+    Object.keys(counts).forEach((cardCode, index) => {
+      cardList.push({ card: new Card(cardCode), count: counts[cardCode] });
+    });
+    cardList.sort((a, b) =>
+      a.card.info.cost > b.card.info.cost
         ? 1
+        : a.card.info.cost === b.card.info.cost
+        ? a.card.info.name > b.card.info.name
+          ? 1
+          : -1
         : -1
-      : -1
-  );
+    );
+  }
   return cardList;
 }

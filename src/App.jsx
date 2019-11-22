@@ -40,7 +40,6 @@ export default class App extends React.Component {
         cardScoreList.push({ name: card.name, id: card.cardCode, cost: card.cost, score: 0 })
       }
     });
-    console.log(JSON.stringify(cardScoreList))
   };
 
   render(){
