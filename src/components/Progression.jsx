@@ -32,13 +32,13 @@ export class Progression extends React.Component {
         {showProgression && (
           <div className="progression">
             {/*need to add fails and track in between*/}
-            <LimitedMainTrack isWon={this.props.wins === 1} />
-            <LimitedMainTrack isWon={this.props.wins === 2} />
-            <LimitedMainTrack isWon={this.props.wins === 3} />
-            <LimitedMainTrack isWon={this.props.wins === 4} />
-            <LimitedMainTrack isWon={this.props.wins === 5} />
-            <LimitedMainTrack isWon={this.props.wins === 6} />
-            <LimitedMainTrack isWon={this.props.wins === 7} />
+            <LimitedMainTrack isWon={this.props.wins >= 1} />
+            <LimitedMainTrack isWon={this.props.wins >= 2} />
+            <LimitedMainTrack isWon={this.props.wins >= 3} />
+            <LimitedMainTrack isWon={this.props.wins >= 4} />
+            <LimitedMainTrack isWon={this.props.wins >= 5} />
+            <LimitedMainTrack isWon={this.props.wins >= 6} />
+            <LimitedMainTrack isWon={this.props.wins >= 7} />
           </div>
         )}
       </>

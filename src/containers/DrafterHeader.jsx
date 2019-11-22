@@ -5,6 +5,7 @@ import { TotalWins } from '../components/TotalWins';
 import { Progression } from '../components/Progression';
 
 export default class DraftHeader extends React.Component {
+  //This needs to be improved to only render on props update
   render() {
     console.log(this.props);
     let wins = this.props.Wins;
