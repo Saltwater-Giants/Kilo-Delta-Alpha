@@ -36,7 +36,9 @@ export default class App extends React.Component {
     const data = require('./ext/datadragon-set1-lite/en_us/data/set1-en_us');
     let cardScoreList = [];
     data.forEach(card=>{
-      cardScoreList.push({name: card.name, id:card.cardCode, score: 0})
+      if (card.collectible) {
+        cardScoreList.push({ name: card.name, id: card.cardCode, cost: card.cost, score: 0 })
+      }
     });
     console.log(JSON.stringify(cardScoreList))
   };

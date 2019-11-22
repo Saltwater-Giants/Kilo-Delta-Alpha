@@ -17,5 +17,8 @@ export function deckFromCardCodeList(codeList) {
       cardList.push(new Card(cardCode));
     });
   }
+  cardList.sort((a, b) =>
+    a.info.cost > b.info.cost ? 1 : a.info.cost === b.info.cost ? (a.size > b.size ? 1 : -1) : -1
+  );
   return cardList;
 }
